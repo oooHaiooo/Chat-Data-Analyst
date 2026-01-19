@@ -1,0 +1,13 @@
+# 忽略编译文件
+__pycache__/
+*.pyc
+
+# 忽略 Jupyter 存档
+.ipynb_checkpoints/
+
+# 忽略缓存
+cache/
+.streamlit/
+
+# 忽略敏感信息 (别把 Key 传上去！)
+.env
